@@ -1,26 +1,26 @@
 public class Estudiante {
 
     private String nombre;
-    private int notaFinal;
+    private int calificacionFinal;
 
-    public Estudiante(String nombre, int notaFinal){
+    public Estudiante(String nombre, int calificacionFinal){
         this.nombre = nombre;
-        this.notaFinal = notaFinal;
+        this.calificacionFinal = calificacionFinal;
     }
 
     public String getNombre(){
         return nombre;
     }
 
-    public int getNotaFinal(){
-        return notaFinal;
+    public int getCalificacionFinal(){
+        return calificacionFinal;
     }
 
-    public void setNotaFinal(int notaFinal){
-        this.notaFinal = notaFinal;
+    public void setCalificacionFinal(int calificacionFinal){
+        this.calificacionFinal = calificacionFinal;
     }
 
     public void mostrar(){
-        System.out.println(nombre + " - " + notaFinal);
+        System.out.println(nombre + " - " + calificacionFinal);
     }
 }
