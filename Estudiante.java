@@ -1,26 +1,26 @@
 public class Estudiante {
 
     private String nombre;
-    private int notaFinal;
+    private int promedio;
 
-    public Estudiante(String nombre, int notaFinal){
+    public Estudiante(String nombre, int promedio){
         this.nombre = nombre;
-        this.notaFinal = notaFinal;
+        this.promedio = promedio;
     }
 
     public String getNombre(){
         return nombre;
     }
 
-    public int getNotaFinal(){
-        return notaFinal;
+    public int getPromedio(){
+        return promedio;
     }
 
-    public void setNotaFinal(int notaFinal){
-        this.notaFinal = notaFinal;
+    public void setPromedio(int promedio){
+        this.promedio = promedio;
     }
 
     public void mostrar(){
-        System.out.println(nombre + " - " + notaFinal);
+        System.out.println(nombre + " - " + promedio);
     }
 }
